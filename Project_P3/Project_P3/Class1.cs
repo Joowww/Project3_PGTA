@@ -1087,13 +1087,23 @@ namespace Project_P3
 
             try
             {
-                f4.SaveDataTableAsCSV(table, "Results_SeparationLoss.csv");
-                f4.SaveDataTableAsCSV(virajes_Table, "Results_TurnInitiation.csv");
-                f4.SaveDataTableAsCSV(Altitudes_Table, "Results_IASatAltitudes.csv");
-                f4.SaveDataTableAsCSV(Threshold_Table, "Results_IASandAltitudeTHR.csv");
-                f4.SaveDataTableAsCSV(Sonometro_Table, "Results_MinDistanceSoundlevelmeter.csv");
+                using (FolderBrowserDialog folderDialog = new FolderBrowserDialog())
+                {
+                    folderDialog.Description = "Select a folder to save the results";
 
-                
+                    if (folderDialog.ShowDialog() == DialogResult.OK)
+                    {
+                        string selectedFolder = folderDialog.SelectedPath;
+
+                        f4.SaveDataTableAsCSV(table, Path.Combine(selectedFolder, "Results_SeparationLoss.csv"));
+                        f4.SaveDataTableAsCSV(virajes_Table, Path.Combine(selectedFolder, "Results_TurnInitiation.csv"));
+                        f4.SaveDataTableAsCSV(Altitudes_Table, Path.Combine(selectedFolder, "Results_IASatAltitudes.csv"));
+                        f4.SaveDataTableAsCSV(Threshold_Table, Path.Combine(selectedFolder, "Results_IASandAltitudeTHR.csv"));
+                        f4.SaveDataTableAsCSV(Sonometro_Table, Path.Combine(selectedFolder, "Results_MinDistanceSoundlevelmeter.csv"));
+
+                    }
+
+                }
 
             }
 
@@ -1102,8 +1112,8 @@ namespace Project_P3
                 Console.WriteLine($"Error exporting results as CSV: {ex.Message}");
             }
 
-           
-           
+
+
 
 
         }

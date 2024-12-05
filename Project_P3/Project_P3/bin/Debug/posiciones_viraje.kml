@@ -2,711 +2,189 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document>
 <Placemark>
-  <name>EWG1BL - 08:01:40:242</name>
+  <name>VLG3CP - 20:00:19:132</name>
   <Point>
-    <coordinates>2.03573150488084,41.1819920281127,0</coordinates>
+    <coordinates>2.07254654181878,41.281623340993,0</coordinates>
   </Point>
 </Placemark>
 <Placemark>
-  <name>VOE23TA - 08:00:40:000</name>
+  <name>WMT424 - 20:02:23:085</name>
   <Point>
-    <coordinates>2.07287605894585,41.2818531691966,0</coordinates>
+    <coordinates>2.07869859731507,41.2839769753362,0</coordinates>
   </Point>
 </Placemark>
 <Placemark>
-  <name>TRA3A - 08:02:08:000</name>
+  <name>RYR33JW - 20:05:47:148</name>
   <Point>
-    <coordinates>2.0647877328536,41.2788629090395,0</coordinates>
+    <coordinates>2.07111952333509,41.2811816488631,0</coordinates>
   </Point>
 </Placemark>
 <Placemark>
-  <name>VLG836M - 08:04:08:601</name>
+  <name>VLG4LJ - 20:07:19:156</name>
   <Point>
-    <coordinates>2.06993581545015,41.2808352457455,0</coordinates>
+    <coordinates>2.07159821558002,41.2812807439858,0</coordinates>
   </Point>
 </Placemark>
 <Placemark>
-  <name>AAL743 - 08:05:32:000</name>
+  <name>BCS8031 - 20:08:31:117</name>
   <Point>
-    <coordinates>2.06726509627929,41.279814477937,0</coordinates>
+    <coordinates>2.07950638960615,41.284036944244,0</coordinates>
   </Point>
 </Placemark>
 <Placemark>
-  <name>AFR67FJ - 08:08:00:656</name>
+  <name>AEA70JK - 20:11:19:171</name>
   <Point>
-    <coordinates>2.07637930720597,41.282951794954,0</coordinates>
+    <coordinates>2.07345627390994,41.2822041697093,0</coordinates>
   </Point>
 </Placemark>
 <Placemark>
-  <name>SWR71LU - 08:09:44:750</name>
+  <name>RYR7B - 20:34:34:000</name>
   <Point>
-    <coordinates>2.06602909338533,41.279470442082,0</coordinates>
+    <coordinates>2.07533023063366,41.2826952224348,0</coordinates>
   </Point>
 </Placemark>
 <Placemark>
-  <name>AUA39H - 08:11:12:718</name>
+  <name>VLG5UY - 20:20:15:203</name>
   <Point>
-    <coordinates>2.07852134436579,41.2838106524711,0</coordinates>
+    <coordinates>2.07698261275301,41.2833581561719,0</coordinates>
   </Point>
 </Placemark>
 <Placemark>
-  <name>N501MG - 08:14:24:812</name>
+  <name>EZY64WK - 20:21:38:000</name>
   <Point>
-    <coordinates>2.07321534845489,41.2810934200754,0</coordinates>
+    <coordinates>2.07764411192644,41.2834867298254,0</coordinates>
   </Point>
 </Placemark>
 <Placemark>
-  <name>IBE30KE - 08:15:56:000</name>
+  <name>DAH2015 - 20:26:15:265</name>
   <Point>
-    <coordinates>2.07565212044532,41.2824467320694,0</coordinates>
+    <coordinates>2.07187976505264,41.2816793300572,0</coordinates>
   </Point>
 </Placemark>
 <Placemark>
-  <name>VLG9ZT - 08:17:36:859</name>
+  <name>BCS8049 - 20:30:59:242</name>
   <Point>
-    <coordinates>2.08007604340607,41.2843322256476,0</coordinates>
+    <coordinates>2.07945280270483,41.2839348266446,0</coordinates>
   </Point>
 </Placemark>
 <Placemark>
-  <name>RYR87QD - 08:19:16:976</name>
+  <name>VLG8JY - 20:33:30:000</name>
   <Point>
-    <coordinates>2.06576224990824,41.2794545205915,0</coordinates>
+    <coordinates>2.06749634778569,41.2798470125515,0</coordinates>
   </Point>
 </Placemark>
 <Placemark>
-  <name>BAW473 - 08:20:16:000</name>
+  <name>VLG7ZR - 20:35:50:000</name>
   <Point>
-    <coordinates>2.07833828112078,41.2837857352364,0</coordinates>
+    <coordinates>2.07359687517864,41.2822367583277,0</coordinates>
   </Point>
 </Placemark>
 <Placemark>
-  <name>ASL79V - 08:22:00:000</name>
+  <name>RYR4UN - 20:37:59:351</name>
   <Point>
-    <coordinates>2.0709074079046,41.2810985680821,0</coordinates>
+    <coordinates>2.06797187674572,41.2796098391734,0</coordinates>
   </Point>
 </Placemark>
 <Placemark>
-  <name>FIN07RT - 08:23:32:000</name>
+  <name>ELY392 - 20:39:46:000</name>
   <Point>
-    <coordinates>2.0779258396354,41.2836396231612,0</coordinates>
+    <coordinates>2.07768046141015,41.2835519776189,0</coordinates>
   </Point>
 </Placemark>
 <Placemark>
-  <name>RUK69FL - 08:29:36:000</name>
+  <name>WMT9VD - 20:43:15:328</name>
   <Point>
-    <coordinates>2.06746870122146,41.2799490379295,0</coordinates>
+    <coordinates>2.0787471484593,41.2838151975581,0</coordinates>
   </Point>
 </Placemark>
 <Placemark>
-  <name>VLG6LR - 08:30:49:218</name>
+  <name>VLG41YG - 20:44:27:359</name>
   <Point>
-    <coordinates>2.07144451536676,41.2812128294028,0</coordinates>
+    <coordinates>2.07649845151469,41.2831338997309,0</coordinates>
   </Point>
 </Placemark>
 <Placemark>
-  <name>WMT79 - 08:39:40:000</name>
+  <name>TAP1043 - 20:46:30:000</name>
   <Point>
-    <coordinates>2.07490423757385,41.2825663665497,0</coordinates>
+    <coordinates>2.07584450038141,41.2825658314228,0</coordinates>
   </Point>
 </Placemark>
 <Placemark>
-  <name>EZY16QD - 08:40:57:421</name>
+  <name>BCS463 - 20:47:43:375</name>
   <Point>
-    <coordinates>2.07576171884522,41.2827483802764,0</coordinates>
+    <coordinates>2.07650368198123,41.2829779796983,0</coordinates>
   </Point>
 </Placemark>
 <Placemark>
-  <name>VLG2KX - 08:42:17:460</name>
+  <name>UPS243 - 20:50:23:375</name>
   <Point>
-    <coordinates>2.0738205273234,41.2819977386959,0</coordinates>
+    <coordinates>2.07904958603694,41.2837816579525,0</coordinates>
   </Point>
 </Placemark>
 <Placemark>
-  <name>RYR9ZC - 08:44:01:000</name>
+  <name>WMT5SY - 20:53:27:382</name>
   <Point>
-    <coordinates>2.06727872570002,41.2798185562402,0</coordinates>
+    <coordinates>2.08107774347771,41.28484903707,0</coordinates>
   </Point>
 </Placemark>
 <Placemark>
-  <name>RYR17TT - 08:45:21:554</name>
+  <name>EJU67YR - 21:04:03:476</name>
   <Point>
-    <coordinates>2.06979142499278,41.2807120075625,0</coordinates>
+    <coordinates>2.07691462847769,41.283013260608,0</coordinates>
   </Point>
 </Placemark>
 <Placemark>
-  <name>IBE30HR - 08:46:37:554</name>
+  <name>RYR46FX - 21:07:23:000</name>
   <Point>
-    <coordinates>2.07395922212564,41.2821233830592,0</coordinates>
+    <coordinates>2.07299476184883,41.2816586105853,0</coordinates>
   </Point>
 </Placemark>
 <Placemark>
-  <name>RYR49YA - 08:48:01:617</name>
+  <name>VLG7844 - 21:12:51:523</name>
   <Point>
-    <coordinates>2.06937017604033,41.2805477392442,0</coordinates>
+    <coordinates>2.07935034507783,41.2840062078559,0</coordinates>
   </Point>
 </Placemark>
 <Placemark>
-  <name>VLG7SV - 08:49:21:000</name>
+  <name>FDX6372 - 21:14:15:554</name>
   <Point>
-    <coordinates>2.07071258516853,41.2808679898626,0</coordinates>
+    <coordinates>2.07491127192584,41.2819969456139,0</coordinates>
   </Point>
 </Placemark>
 <Placemark>
-  <name>EJU43XT - 08:51:09:664</name>
+  <name>SWN6LC - 21:21:19:656</name>
   <Point>
-    <coordinates>2.0753813198783,41.2826791346905,0</coordinates>
+    <coordinates>2.07169018486619,41.2819342141979,0</coordinates>
   </Point>
 </Placemark>
 <Placemark>
-  <name>VLG6TM - 08:52:41:710</name>
+  <name>EIN56V - 21:24:07:000</name>
   <Point>
-    <coordinates>2.0712972687692,41.2811771974137,0</coordinates>
+    <coordinates>2.07150799988223,41.2813903692322,0</coordinates>
   </Point>
 </Placemark>
 <Placemark>
-  <name>TRA35B - 08:53:49:734</name>
+  <name>HAT6129 - 21:35:07:757</name>
   <Point>
-    <coordinates>2.0702633066515,41.2810664416012,0</coordinates>
+    <coordinates>2.06703680554774,41.2796916384884,0</coordinates>
   </Point>
 </Placemark>
 <Placemark>
-  <name>ELY394 - 08:54:53:757</name>
+  <name>VLG606P - 21:38:23:687</name>
   <Point>
-    <coordinates>2.07041476243204,41.2807722851591,0</coordinates>
+    <coordinates>2.08292070326749,41.2852877865624,0</coordinates>
   </Point>
 </Placemark>
 <Placemark>
-  <name>WZZ4 - 08:56:25:757</name>
+  <name>RYR7WN - 21:42:35:750</name>
   <Point>
-    <coordinates>2.07663484241414,41.2829472423808,0</coordinates>
+    <coordinates>2.07985784130862,41.2842191785273,0</coordinates>
   </Point>
 </Placemark>
 <Placemark>
-  <name>EZY51EZ - 09:01:25:000</name>
+  <name>WZZ8QQ - 21:55:51:000</name>
   <Point>
-    <coordinates>2.07018149260114,41.2810486832868,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>RYR33SC - 09:03:53:960</name>
-  <Point>
-    <coordinates>2.06948973377619,41.2805976742315,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>VLG15H - 09:05:57:992</name>
-  <Point>
-    <coordinates>2.07242165499004,41.2817407925037,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>N99ZM - 09:08:54:070</name>
-  <Point>
-    <coordinates>2.06771099408055,41.2796845656547,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>UAE255 - 09:10:54:117</name>
-  <Point>
-    <coordinates>2.06753798641276,41.2800393541734,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>N158QS - 09:13:37:000</name>
-  <Point>
-    <coordinates>2.06357146916137,41.2787420145564,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>ETD35Q - 09:15:57:000</name>
-  <Point>
-    <coordinates>2.07470547576042,41.2825356549732,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>MAC374R - 09:18:30:242</name>
-  <Point>
-    <coordinates>2.07435757298801,41.2821015821798,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>RYR67DP - 09:20:17:000</name>
-  <Point>
-    <coordinates>2.06969670247185,41.2807652377757,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>AHO647A - 09:21:49:000</name>
-  <Point>
-    <coordinates>2.07020359980427,41.281234660399,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>EZY83DL - 09:25:38:382</name>
-  <Point>
-    <coordinates>2.07577704160581,41.2827848998292,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>KLM86N - 09:27:21:000</name>
-  <Point>
-    <coordinates>2.06448936350233,41.2791376390401,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>VLG7PC - 09:28:38:460</name>
-  <Point>
-    <coordinates>2.07272529377542,41.2817381409181,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>VLG4YH - 09:30:10:460</name>
-  <Point>
-    <coordinates>2.07835396346021,41.2837532741151,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>CSDPV - 09:32:42:554</name>
-  <Point>
-    <coordinates>2.06981197199971,41.2803380665009,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>EIN5LG - 09:37:42:000</name>
-  <Point>
-    <coordinates>2.0747479420535,41.2825006566951,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>RYR1DH - 09:39:22:710</name>
-  <Point>
-    <coordinates>2.06536405965063,41.278880754362,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>AEE711 - 09:40:58:000</name>
-  <Point>
-    <coordinates>2.07618091002278,41.2829531553365,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>WZZ46 - 09:42:26:726</name>
-  <Point>
-    <coordinates>2.07577175421107,41.2830367781269,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>RYR930U - 09:44:14:789</name>
-  <Point>
-    <coordinates>2.06929420972961,41.2803333374661,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>VLG1ZY - 09:45:38:812</name>
-  <Point>
-    <coordinates>2.07015970821974,41.2808144029221,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>VLG178R - 09:46:46:781</name>
-  <Point>
-    <coordinates>2.07952415392098,41.2841738257566,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>RYR88AD - 09:48:14:882</name>
-  <Point>
-    <coordinates>2.06938834505513,41.2806442725453,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>TAP1035 - 09:49:30:000</name>
-  <Point>
-    <coordinates>2.07639666747231,41.2830638737438,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>VLG673Q - 09:50:46:890</name>
-  <Point>
-    <coordinates>2.07567155133791,41.2828037557058,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>VLG10DH - 09:52:10:929</name>
-  <Point>
-    <coordinates>2.07222607320278,41.2816424883974,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>VLG6009 - 09:53:46:984</name>
-  <Point>
-    <coordinates>2.06763323710544,41.2798141147894,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>ZSABB - 09:54:58:921</name>
-  <Point>
-    <coordinates>2.08161279981919,41.2848800077945,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>VLG9AP - 09:56:47:007</name>
-  <Point>
-    <coordinates>2.07375134102483,41.2818182104378,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>ITY077 - 09:58:14:000</name>
-  <Point>
-    <coordinates>2.07226196476155,41.2815048283828,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>VLG9CA - 09:59:58:000</name>
-  <Point>
-    <coordinates>2.06995677598071,41.2808480136121,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>VLG17FD - 10:01:42:000</name>
-  <Point>
-    <coordinates>2.0713988910779,41.2805929238395,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>AEA6037 - 10:03:14:000</name>
-  <Point>
-    <coordinates>2.06831854489834,41.2803993853114,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>BAW483B - 10:04:43:117</name>
-  <Point>
-    <coordinates>2.07949759220643,41.284194642909,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>DLH13K - 10:06:11:171</name>
-  <Point>
-    <coordinates>2.07574780887974,41.2829993956857,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>VLG3QT - 10:07:43:242</name>
-  <Point>
-    <coordinates>2.0687277238687,41.2802966557289,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>AEA7706 - 10:09:11:234</name>
-  <Point>
-    <coordinates>2.0730890591544,41.2817301707384,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>GES441S - 10:12:46:000</name>
-  <Point>
-    <coordinates>2.07894204853406,41.2834361900422,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>VLG8PX - 10:14:39:351</name>
-  <Point>
-    <coordinates>2.06975250547935,41.2807843494366,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>VLG36BR - 10:18:11:351</name>
-  <Point>
-    <coordinates>2.07934207271091,41.2840817007548,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>EJU16XM - 10:20:23:406</name>
-  <Point>
-    <coordinates>2.07628755179994,41.2829429776864,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>VLG9RM - 10:22:10:000</name>
-  <Point>
-    <coordinates>2.07239169329036,41.2819053872136,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>RYR308X - 10:23:27:492</name>
-  <Point>
-    <coordinates>2.07107221186412,41.2813086167185,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>UAL121 - 10:24:47:437</name>
-  <Point>
-    <coordinates>2.08160932033602,41.284913408394,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>THY4AP - 10:26:35:523</name>
-  <Point>
-    <coordinates>2.07442678942502,41.2824402177037,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>VLG4HF - 10:29:19:585</name>
-  <Point>
-    <coordinates>2.07168365046079,41.2814277803382,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>N904TS - 10:30:39:562</name>
-  <Point>
-    <coordinates>2.07870892828823,41.2838756699348,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>VLG7EW - 10:32:15:000</name>
-  <Point>
-    <coordinates>2.07781383988818,41.2835571079256,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>VLG8KR - 10:33:59:601</name>
-  <Point>
-    <coordinates>2.0803892387258,41.2844660650175,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>VLG6QC - 10:35:47:000</name>
-  <Point>
-    <coordinates>2.07998162301034,41.284282401476,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>RYR1UC - 10:37:15:726</name>
-  <Point>
-    <coordinates>2.06863876151277,41.2805266127,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>RYR47NG - 10:38:47:000</name>
-  <Point>
-    <coordinates>2.06865456765204,41.2803074633382,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>VLG3EN - 10:39:59:000</name>
-  <Point>
-    <coordinates>2.07290582664925,41.2818394905571,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>VLG13HE - 10:41:19:757</name>
-  <Point>
-    <coordinates>2.0740404603247,41.282246113552,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>VLG5AN - 10:42:35:765</name>
-  <Point>
-    <coordinates>2.07578531178783,41.2825391135356,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>VLG1512 - 10:44:11:804</name>
-  <Point>
-    <coordinates>2.07374930086384,41.2823429635127,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>NSZ365L - 10:46:11:835</name>
-  <Point>
-    <coordinates>2.07307837556103,41.2817598804466,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>VLG6NJ - 10:49:59:906</name>
-  <Point>
-    <coordinates>2.07128921438472,41.2813268073229,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>VLG4WJ - 11:02:56:062</name>
-  <Point>
-    <coordinates>2.0778145222523,41.2834729247417,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>VLG202P - 10:55:31:906</name>
-  <Point>
-    <coordinates>2.08330741599724,41.2853321828526,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>AAL67 - 10:58:27:000</name>
-  <Point>
-    <coordinates>2.07664789645136,41.2830507202335,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>IBE30HP - 11:01:00:046</name>
-  <Point>
-    <coordinates>2.07482690081078,41.2823982842369,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>VLG64LZ - 11:05:27:000</name>
-  <Point>
-    <coordinates>2.07058310693124,41.2808905117904,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>VLG48EZ - 11:06:56:132</name>
-  <Point>
-    <coordinates>2.07434836269646,41.2824981883999,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>VLG3YG - 11:08:16:140</name>
-  <Point>
-    <coordinates>2.0757709997988,41.282697528626,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>VLG5SH - 11:12:08:195</name>
-  <Point>
-    <coordinates>2.07556918471512,41.2827994554422,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>NOZ41B - 11:13:36:257</name>
-  <Point>
-    <coordinates>2.06465400650469,41.2785711370937,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>DLH27W - 11:18:39:000</name>
-  <Point>
-    <coordinates>2.07632787214064,41.2830267832325,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>VLG63KY - 11:20:00:281</name>
-  <Point>
-    <coordinates>2.07582777467225,41.2826334502528,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>VLG28VR - 11:21:19:000</name>
-  <Point>
-    <coordinates>2.07746574579623,41.2833675681868,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>AHO859Y - 11:23:21:000</name>
-  <Point>
-    <coordinates>2.07790938782541,41.2832326593442,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>BAW485 - 11:24:52:312</name>
-  <Point>
-    <coordinates>2.08099468657304,41.2846983277246,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>VLG2MJ - 11:26:23:000</name>
-  <Point>
-    <coordinates>2.07248587548998,41.281906646811,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>EJU64CT - 11:27:40:421</name>
-  <Point>
-    <coordinates>2.07003571091282,41.2810348938038,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>RYR75HD - 11:29:16:429</name>
-  <Point>
-    <coordinates>2.07073972158227,41.2809354882283,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>EJU48RE - 11:35:32:484</name>
-  <Point>
-    <coordinates>2.07772525575185,41.2834281741973,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>AHY046 - 11:36:44:468</name>
-  <Point>
-    <coordinates>2.07955018011919,41.2841793444972,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>RYR6UL - 11:38:28:546</name>
-  <Point>
-    <coordinates>2.06893006480636,41.2804830688783,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>RYR6376 - 11:39:44:554</name>
-  <Point>
-    <coordinates>2.07036665800239,41.2808552689318,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>AFR94BQ - 11:41:04:000</name>
-  <Point>
-    <coordinates>2.07673783036147,41.283362054774,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>VLG3VF - 11:42:24:554</name>
-  <Point>
-    <coordinates>2.07485154582079,41.2824256298944,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>RYR426G - 11:43:48:000</name>
-  <Point>
-    <coordinates>2.07459702441827,41.2822402612963,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>RYR1XN - 11:47:20:625</name>
-  <Point>
-    <coordinates>2.07376229795783,41.2821785703248,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>T7MPS - 11:49:48:617</name>
-  <Point>
-    <coordinates>2.07926826133144,41.2842113096985,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>AAL113 - 11:51:28:000</name>
-  <Point>
-    <coordinates>2.07317236415888,41.2820844455676,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>IBE30SY - 11:56:56:710</name>
-  <Point>
-    <coordinates>2.07577405379616,41.2827472738303,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>VLG12ET - 11:58:56:000</name>
-  <Point>
-    <coordinates>2.07563091054816,41.2827668839582,0</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>VLG3BV - 12:00:56:765</name>
-  <Point>
-    <coordinates>2.07384398592716,41.2821312413335,0</coordinates>
+    <coordinates>2.07888445935026,41.2841086242883,0</coordinates>
   </Point>
 </Placemark>
 </Document>
