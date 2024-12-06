@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Project_P3
 {
@@ -18,28 +19,61 @@ namespace Project_P3
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-           
 
+        // 24 h
+        private async void button1_Click(object sender, EventArgs e)
+        {
             string defaultFile1 = "2305_02_dep_lebl.xlsx"; // Archivo 1
             string defaultFile2 = "archivo_combinado_sin_dup.csv"; // Archivo 2
             string defaultFile3 = "Tabla_Clasificacion_aeronaves.xlsx"; // Archivo 3
             string defaultFile4 = "Tabla_misma_SID_06R.xlsx"; // Archivo 4
             string defaultFile5 = "Tabla_misma_SID_24L.xlsx"; // Archivo 5
 
+            string path = null;
+            progBar progBar24 = new progBar();
+
             // Llamar a ExecuteCode con los archivos predeterminados
-            Class1.ExecuteCode(defaultFile1, defaultFile2, defaultFile3, defaultFile4, defaultFile5);
+            try
+            {
+                // Mostrar el formulario de progreso
+                progBar24.Show();
 
-            MessageBox.Show("Process finished correctly", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-            CloseAllForms();
+                // Iniciar la barra de progreso de forma asíncrona
+                var progressTask = progBar24.StartProgressAsync();
+
+                List<DataTable> tablas = await Task.Run(() => Class1.ExecuteCode(defaultFile1, defaultFile2, defaultFile3, defaultFile4, defaultFile5));
+
+                // Detener la barra de progreso
+                progBar24.StopProgress();
+                path = Class2.SaveFiles(tablas);
+                // Asegurar que la barra llegue al 100% antes de cerrar
+                progBar24.UpdateProgress(100);
+                await Task.Delay(500); // Pausa breve para mostrar el progreso completo
+
+                // Mostrar mensajes al usuario según el resultado
+                if (path == null)
+                {
+                    MessageBox.Show("There has been an error with the folder selected. Make sure to close excels previously obtained by this code.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    progBar24.Close();
+                }
+            
+                else
+                {
+                    MessageBox.Show("Process finished correctly. Files saved in " + path, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    CloseAllForms();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"An error occurred: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                progBar24.Close();
+            }
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            
 
+        private async void button2_Click(object sender, EventArgs e)
+        {            
             // Crear un OpenFileDialog para permitir la selección de múltiples archivos
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.Filter = "Excel and CSV Files (*.xlsx;*.csv)|*.xlsx;*.csv|Todos los archivos (*.*)|*.*"; // Filtro para .xlsx y .csv
@@ -52,20 +86,69 @@ namespace Project_P3
                 // Obtener las rutas de los archivos seleccionados
                 string[] selectedFiles = openFileDialog.FileNames; // Array con las rutas de los archivos seleccionados
 
+                string path = null;
+                progBar progBar = new progBar();
                 // Llamar a ExecuteCode con los 4 archivos seleccionados
-                Class1.ExecuteCode(selectedFiles[0], selectedFiles[1], selectedFiles[2], selectedFiles[3], selectedFiles[4]);
+                try
+                {
+                    // Mostrar el formulario de progreso
+                    progBar.Show();
+
+                    // Iniciar la barra de progreso de forma asíncrona
+                    var progressTask = progBar.StartProgressAsync();
+
+                    // Ejecutar el código principal en segundo plano
+                    List<DataTable> tablas = null;
+                    try
+                    {
+                        tablas = await Task.Run(() => Class1.ExecuteCode(selectedFiles[0], selectedFiles[1], selectedFiles[2], selectedFiles[3], selectedFiles[4]));
+                    }
+                    catch
+                    {
+                        MessageBox.Show("Wrong format. Make sure that input files have correct structure.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    if (tablas != null)
+                    {
+                        // Detener la barra de progreso
+                        progBar.StopProgress();
+
+                        path = Class2.SaveFiles(tablas);
+                        // Asegurar que la barra llegue al 100% antes de cerrar
+                        progBar.UpdateProgress(100);
+                        await Task.Delay(500); // Pausa breve para mostrar el progreso completo
+
+                        // Mostrar mensajes al usuario según el resultado
+                        if (path == null)
+                        {
+                            MessageBox.Show("There has been an error with the folder selected. Make sure to close excels previously obtained by this code.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            progBar.Close();
+                        }
+
+                        else
+                        {
+                            MessageBox.Show("Process finished correctly. Files saved in " + path, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            CloseAllForms();
+                        }
+                    }
+                    else
+                    {
+                        throw new Exception("Format error. Make sure the input files have the correct format.");
+                        progBar.Close();
+                    }
+
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"An error occurred: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    progBar.Close();
+                }
+
             }
             else
             {
                 MessageBox.Show("Please, select exactly 5 files");
-                
             }
 
-            
-            MessageBox.Show("Process finished correctly", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-
-            CloseAllForms();
         }
 
         private void CloseAllForms()
@@ -95,22 +178,58 @@ namespace Project_P3
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        // 4h
+        private async void button3_Click(object sender, EventArgs e)
         {
-            
-
             string defaultFile1 = "2305_02_dep_lebl.xlsx"; // Archivo 1
             string defaultFile2 = "FilteredASTERIX_0812_230205.csv"; // Archivo 2
             string defaultFile3 = "Tabla_Clasificacion_aeronaves.xlsx"; // Archivo 3
             string defaultFile4 = "Tabla_misma_SID_06R.xlsx"; // Archivo 4
             string defaultFile5 = "Tabla_misma_SID_24L.xlsx"; // Archivo 5
 
-            // Llamar a ExecuteCode con los archivos predeterminados
-            Class1.ExecuteCode(defaultFile1, defaultFile2, defaultFile3, defaultFile4, defaultFile5);
+            string path = null;
 
-            MessageBox.Show("Process finished correctly", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            // Crear una instancia del formulario de progreso
+            progBar progBar4 = new progBar();
 
-            CloseAllForms();
+            try
+            {
+                // Mostrar el formulario de progreso
+                progBar4.Show();
+
+                var progressTask = progBar4.StartProgressAsync();
+
+                // Ejecutar el código principal en segundo plano
+                List<DataTable> tablas = await Task.Run(() => Class1.ExecuteCode(defaultFile1, defaultFile2, defaultFile3, defaultFile4, defaultFile5));
+
+                
+                    // Detener la barra de progreso
+                    progBar4.StopProgress();
+
+                    path = Class2.SaveFiles(tablas);
+                    // Asegurar que la barra llegue al 100% antes de cerrar
+                    progBar4.UpdateProgress(100);
+                    await Task.Delay(500); // Pausa breve para mostrar el progreso completo
+
+                    // Mostrar mensajes al usuario según el resultado
+                    if (path == null)
+                    {
+                        MessageBox.Show("There has been an error with the folder selected. Make sure to close excels previously obtained by this code.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        progBar4.Close();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Process finished. File created at: " + path, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        progBar4.Close();
+                        CloseAllForms();
+                    }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"An error occurred: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                progBar4.Close();
+            }
         }
+
     }
 }

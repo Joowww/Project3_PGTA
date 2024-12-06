@@ -24,6 +24,7 @@ using OxyPlot.Series;
 using OxyPlot.WindowsForms;
 using System.Globalization;
 using System.Windows.Forms;
+using System.Linq.Expressions;
 //using System.Collections.Immutable;
 
 namespace Project_P3 
@@ -33,10 +34,15 @@ namespace Project_P3
         CultureInfo cultura = new CultureInfo("es-ES");
         //public static readonly NLog.Logger logger = LogManager.GetCurrentClassLogger();
 
-        public static void ExecuteCode(string filePath1, string filePath2, string filePath3, string filePath4, string filePath5)
+        public static List<DataTable> ExecuteCode(string filePath1, string filePath2, string filePath3, string filePath4, string filePath5)
         {
-            //Read CSV with take offs
-            string path = filePath1;
+
+            List<DataTable> result = null;
+            try
+            {
+
+           //Read CSV with take offs
+           string path = filePath1;
 
             ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
             List<Aircraft> aircrafts_deplist = new List<Aircraft>();
@@ -635,10 +641,6 @@ namespace Project_P3
                 //Acces each aircraft in diccionary
                 string aircraftID = aircraft_vir.Key;
 
-                if (aircraftID == "SWT8168")
-                {
-                    Console.WriteLine("GGGGG");
-                }
                 //Acces each messages of aircraft
                 List<ASTmessage> messages_vir = aircraft_vir.Value;
 
@@ -1026,96 +1028,87 @@ namespace Project_P3
             double SEP_minima_radar = 3;  //3NM
 
             Function Function = new Function();
-
-            for (int cont2 = 0; cont2 < aircrafts_deplist.Count - 1; cont2++)
+            try
             {
-                var aircraft_ahead = aircrafts_deplist[cont2];
-                var aircraft_behind = aircrafts_deplist[cont2 + 1];
-
-                // Verificar si ambos aviones están en el mismo camino
-                if (aircraft_ahead.PistaDespegue != aircraft_behind.PistaDespegue)
+                for (int cont2 = 0; cont2 < aircrafts_deplist.Count - 1; cont2++)
                 {
-                    continue; // Salta si no están en la misma pista
-                }
+                    var aircraft_ahead = aircrafts_deplist[cont2];
+                    var aircraft_behind = aircrafts_deplist[cont2 + 1];
 
-                // Acceder a las posiciones del avión "adelante"
-                if (aircraftPositions.TryGetValue(aircraft_ahead.Indicativo, out List<ASTmessage> aheadPositions))
-                {
-
-                    foreach (var aircraft_ahead_ast in aheadPositions)
+                    // Verificar si ambos aviones están en el mismo camino
+                    if (aircraft_ahead.PistaDespegue != aircraft_behind.PistaDespegue)
                     {
-                        // Acceder a las posiciones del avión "detrás"
-                        if (aircraftPositions.TryGetValue(aircraft_behind.Indicativo, out List<ASTmessage> behindPositions) && aircraft_ahead_ast.initialize_dist == true)
+                        continue; // Salta si no están en la misma pista
+                        return null;
+                    }
+                    
+                    // Acceder a las posiciones del avión "adelante"
+                    if (aircraftPositions.TryGetValue(aircraft_ahead.Indicativo, out List<ASTmessage> aheadPositions))
+                    {
+
+                        foreach (var aircraft_ahead_ast in aheadPositions)
                         {
-                            foreach (var aircraft_behind_ast in behindPositions)
+                            // Acceder a las posiciones del avión "detrás"
+                            if (aircraftPositions.TryGetValue(aircraft_behind.Indicativo, out List<ASTmessage> behindPositions) && aircraft_ahead_ast.initialize_dist == true)
                             {
-
-                                if (Math.Abs(Convert.ToDouble(aircraft_ahead_ast.time_s) - Convert.ToDouble(aircraft_behind_ast.time_s)) <= 3)
+                                foreach (var aircraft_behind_ast in behindPositions)
                                 {
-                                    double distance = Function.calculate_distance(aircraft_ahead_ast, aircraft_behind_ast);
-                                    double distance_wake = Function.wake_separation(aircraft_ahead_ast, aircraft_behind_ast);
-                                    double distance_LoA = Function.LoA_separation(aircraft_ahead_ast, aircraft_behind_ast);
-                                    string zone = aircraft_behind_ast.zone;
 
-                                    if (aircraft_behind_ast.initialize_dist)
+                                    if (Math.Abs(Convert.ToDouble(aircraft_ahead_ast.time_s) - Convert.ToDouble(aircraft_behind_ast.time_s)) <= 3)
                                     {
-                                        // Radar
-                                        if (distance < SEP_minima_radar)
-                                        {
-                                            Function.AddViolationIfNotExists(table, aircraft_ahead_ast, aircraft_behind_ast, distance, "Radar", zone);
-                                        }
+                                        double distance = Function.calculate_distance(aircraft_ahead_ast, aircraft_behind_ast);
+                                        double distance_wake = Function.wake_separation(aircraft_ahead_ast, aircraft_behind_ast);
+                                        double distance_LoA = Function.LoA_separation(aircraft_ahead_ast, aircraft_behind_ast);
+                                        string zone = aircraft_behind_ast.zone;
 
-                                        // Estela
-                                        if (distance < distance_wake)
+                                        if (aircraft_behind_ast.initialize_dist)
                                         {
-                                            Function.AddViolationIfNotExists(table, aircraft_ahead_ast, aircraft_behind_ast, distance, "Estela", zone);
-                                        }
+                                            // Radar
+                                            if (distance < SEP_minima_radar)
+                                            {
+                                                Function.AddViolationIfNotExists(table, aircraft_ahead_ast, aircraft_behind_ast, distance, "Radar", zone);
+                                            }
 
-                                        // LoA
-                                        if (aircraft_behind_ast.zone == "TWR" && distance < distance_LoA)
-                                        {
-                                            Function.AddViolationIfNotExists(table, aircraft_ahead_ast, aircraft_behind_ast, distance, "LoA", zone);
+                                            // Estela
+                                            if (distance < distance_wake)
+                                            {
+                                                Function.AddViolationIfNotExists(table, aircraft_ahead_ast, aircraft_behind_ast, distance, "Estela", zone);
+                                            }
+
+                                            // LoA
+                                            if (aircraft_behind_ast.zone == "TWR" && distance < distance_LoA)
+                                            {
+                                                Function.AddViolationIfNotExists(table, aircraft_ahead_ast, aircraft_behind_ast, distance, "LoA", zone);
+                                            }
                                         }
                                     }
                                 }
                             }
+
                         }
-
                     }
                 }
-            }
 
-            try
+                List<DataTable> data = new List<DataTable>();
+                data.Add(table);
+                data.Add(virajes_Table);
+                data.Add(Altitudes_Table);
+                data.Add(Threshold_Table);
+                data.Add(Sonometro_Table);
+                result = data;
+            }
+            catch
             {
-                using (FolderBrowserDialog folderDialog = new FolderBrowserDialog())
-                {
-                    folderDialog.Description = "Select a folder to save the results";
-
-                    if (folderDialog.ShowDialog() == DialogResult.OK)
-                    {
-                        string selectedFolder = folderDialog.SelectedPath;
-
-                        f4.SaveDataTableAsCSV(table, Path.Combine(selectedFolder, "Results_SeparationLoss.csv"));
-                        f4.SaveDataTableAsCSV(virajes_Table, Path.Combine(selectedFolder, "Results_TurnInitiation.csv"));
-                        f4.SaveDataTableAsCSV(Altitudes_Table, Path.Combine(selectedFolder, "Results_IASatAltitudes.csv"));
-                        f4.SaveDataTableAsCSV(Threshold_Table, Path.Combine(selectedFolder, "Results_IASandAltitudeTHR.csv"));
-                        f4.SaveDataTableAsCSV(Sonometro_Table, Path.Combine(selectedFolder, "Results_MinDistanceSoundlevelmeter.csv"));
-
-                    }
-
-                }
-
+                result = null;
             }
 
-            catch (Exception ex)
+            
+            }
+            catch(Exception)
             {
-                Console.WriteLine($"Error exporting results as CSV: {ex.Message}");
+                result = null;
             }
-
-
-
-
-
-        }
+            return result;
+        }    
     }
 }

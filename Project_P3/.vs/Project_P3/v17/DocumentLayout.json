@@ -1,14 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\palmi\\Documents\\GitHub\\Proyecto_3_Def_PGTA\\Project_P3\\",
+  "WorkspaceRootPath": "C:\\Users\\paula\\OneDrive\\Escritorio\\4A\\PGTA\\Proyecto_3_Def_PGTA\\Project_P3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{072EF9A8-1B1B-476C-8BCA-A2936F581C36}|Project_P3\\Project_P3.csproj|c:\\users\\palmi\\documents\\github\\proyecto_3_def_pgta\\project_p3\\project_p3\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{072EF9A8-1B1B-476C-8BCA-A2936F581C36}|Project_P3\\Project_P3.csproj|solutionrelative:project_p3\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{072EF9A8-1B1B-476C-8BCA-A2936F581C36}|Project_P3\\Project_P3.csproj|C:\\Users\\paula\\OneDrive\\Escritorio\\4A\\PGTA\\Proyecto_3_Def_PGTA\\Project_P3\\project_p3\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{072EF9A8-1B1B-476C-8BCA-A2936F581C36}|Project_P3\\Project_P3.csproj|solutionrelative:project_p3\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{072EF9A8-1B1B-476C-8BCA-A2936F581C36}|Project_P3\\Project_P3.csproj|c:\\users\\palmi\\documents\\github\\proyecto_3_def_pgta\\project_p3\\project_p3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{072EF9A8-1B1B-476C-8BCA-A2936F581C36}|Project_P3\\Project_P3.csproj|C:\\Users\\paula\\OneDrive\\Escritorio\\4A\\PGTA\\Proyecto_3_Def_PGTA\\Project_P3\\project_p3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{072EF9A8-1B1B-476C-8BCA-A2936F581C36}|Project_P3\\Project_P3.csproj|solutionrelative:project_p3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072EF9A8-1B1B-476C-8BCA-A2936F581C36}|Project_P3\\Project_P3.csproj|c:\\users\\paula\\onedrive\\escritorio\\4a\\pgta\\proyecto_3_def_pgta\\project_p3\\project_p3\\input.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{072EF9A8-1B1B-476C-8BCA-A2936F581C36}|Project_P3\\Project_P3.csproj|solutionrelative:project_p3\\input.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072EF9A8-1B1B-476C-8BCA-A2936F581C36}|Project_P3\\Project_P3.csproj|c:\\users\\paula\\onedrive\\escritorio\\4a\\pgta\\proyecto_3_def_pgta\\project_p3\\project_p3\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{072EF9A8-1B1B-476C-8BCA-A2936F581C36}|Project_P3\\Project_P3.csproj|solutionrelative:project_p3\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072EF9A8-1B1B-476C-8BCA-A2936F581C36}|Project_P3\\Project_P3.csproj|C:\\Users\\paula\\OneDrive\\Escritorio\\4A\\PGTA\\Proyecto_3_Def_PGTA\\Project_P3\\project_p3\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{072EF9A8-1B1B-476C-8BCA-A2936F581C36}|Project_P3\\Project_P3.csproj|solutionrelative:project_p3\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072EF9A8-1B1B-476C-8BCA-A2936F581C36}|Project_P3\\Project_P3.csproj|C:\\Users\\paula\\OneDrive\\Escritorio\\4A\\PGTA\\Proyecto_3_Def_PGTA\\Project_P3\\project_p3\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{072EF9A8-1B1B-476C-8BCA-A2936F581C36}|Project_P3\\Project_P3.csproj|solutionrelative:project_p3\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072EF9A8-1B1B-476C-8BCA-A2936F581C36}|Project_P3\\Project_P3.csproj|C:\\Users\\paula\\OneDrive\\Escritorio\\4A\\PGTA\\Proyecto_3_Def_PGTA\\Project_P3\\project_p3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{072EF9A8-1B1B-476C-8BCA-A2936F581C36}|Project_P3\\Project_P3.csproj|solutionrelative:project_p3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072EF9A8-1B1B-476C-8BCA-A2936F581C36}|Project_P3\\Project_P3.csproj|C:\\Users\\paula\\OneDrive\\Escritorio\\4A\\PGTA\\Proyecto_3_Def_PGTA\\Project_P3\\project_p3\\input.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{072EF9A8-1B1B-476C-8BCA-A2936F581C36}|Project_P3\\Project_P3.csproj|solutionrelative:project_p3\\input.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072EF9A8-1B1B-476C-8BCA-A2936F581C36}|Project_P3\\Project_P3.csproj|C:\\Users\\paula\\OneDrive\\Escritorio\\4A\\PGTA\\Proyecto_3_Def_PGTA\\Project_P3\\project_p3\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{072EF9A8-1B1B-476C-8BCA-A2936F581C36}|Project_P3\\Project_P3.csproj|solutionrelative:project_p3\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072EF9A8-1B1B-476C-8BCA-A2936F581C36}|Project_P3\\Project_P3.csproj|C:\\Users\\paula\\OneDrive\\Escritorio\\4A\\PGTA\\Proyecto_3_Def_PGTA\\Project_P3\\project_p3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{072EF9A8-1B1B-476C-8BCA-A2936F581C36}|Project_P3\\Project_P3.csproj|solutionrelative:project_p3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072EF9A8-1B1B-476C-8BCA-A2936F581C36}|Project_P3\\Project_P3.csproj|C:\\Users\\paula\\OneDrive\\Escritorio\\4A\\PGTA\\Proyecto_3_Def_PGTA\\Project_P3\\project_p3\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{072EF9A8-1B1B-476C-8BCA-A2936F581C36}|Project_P3\\Project_P3.csproj|solutionrelative:project_p3\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +54,155 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 10,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\palmi\\Documents\\GitHub\\Proyecto_3_Def_PGTA\\Project_P3\\Project_P3\\Properties\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "Project_P3\\Properties\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\palmi\\Documents\\GitHub\\Proyecto_3_Def_PGTA\\Project_P3\\Project_P3\\Properties\\AssemblyInfo.cs",
-              "RelativeToolTip": "Project_P3\\Properties\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\paula\\OneDrive\\Escritorio\\4A\\PGTA\\Proyecto_3_Def_PGTA\\Project_P3\\Project_P3\\Form2.cs",
+              "RelativeDocumentMoniker": "Project_P3\\Form2.cs",
+              "ToolTip": "C:\\Users\\paula\\OneDrive\\Escritorio\\4A\\PGTA\\Proyecto_3_Def_PGTA\\Project_P3\\Project_P3\\Form2.cs",
+              "RelativeToolTip": "Project_P3\\Form2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T17:44:07.008Z",
+              "WhenOpened": "2024-12-06T08:46:57.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class2.cs",
+              "DocumentMoniker": "C:\\Users\\paula\\OneDrive\\Escritorio\\4A\\PGTA\\Proyecto_3_Def_PGTA\\Project_P3\\Project_P3\\Class2.cs",
+              "RelativeDocumentMoniker": "Project_P3\\Class2.cs",
+              "ToolTip": "C:\\Users\\paula\\OneDrive\\Escritorio\\4A\\PGTA\\Proyecto_3_Def_PGTA\\Project_P3\\Project_P3\\Class2.cs",
+              "RelativeToolTip": "Project_P3\\Class2.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAxwCwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T23:22:32.551Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\paula\\OneDrive\\Escritorio\\4A\\PGTA\\Proyecto_3_Def_PGTA\\Project_P3\\Project_P3\\Form1.cs",
+              "RelativeDocumentMoniker": "Project_P3\\Form1.cs",
+              "ToolTip": "C:\\Users\\paula\\OneDrive\\Escritorio\\4A\\PGTA\\Proyecto_3_Def_PGTA\\Project_P3\\Project_P3\\Form1.cs",
+              "RelativeToolTip": "Project_P3\\Form1.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T23:19:51.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\paula\\OneDrive\\Escritorio\\4A\\PGTA\\Proyecto_3_Def_PGTA\\Project_P3\\Project_P3\\Form1.cs",
+              "RelativeDocumentMoniker": "Project_P3\\Form1.cs",
+              "ToolTip": "C:\\Users\\paula\\OneDrive\\Escritorio\\4A\\PGTA\\Proyecto_3_Def_PGTA\\Project_P3\\Project_P3\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Project_P3\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T23:19:44.248Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form2.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\paula\\OneDrive\\Escritorio\\4A\\PGTA\\Proyecto_3_Def_PGTA\\Project_P3\\Project_P3\\Form2.Designer.cs",
+              "RelativeDocumentMoniker": "Project_P3\\Form2.Designer.cs",
+              "ToolTip": "C:\\Users\\paula\\OneDrive\\Escritorio\\4A\\PGTA\\Proyecto_3_Def_PGTA\\Project_P3\\Project_P3\\Form2.Designer.cs",
+              "RelativeToolTip": "Project_P3\\Form2.Designer.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAkwEAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T22:30:40.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Input.cs",
+              "DocumentMoniker": "C:\\Users\\paula\\OneDrive\\Escritorio\\4A\\PGTA\\Proyecto_3_Def_PGTA\\Project_P3\\Project_P3\\Input.cs",
+              "RelativeDocumentMoniker": "Project_P3\\Input.cs",
+              "ToolTip": "C:\\Users\\paula\\OneDrive\\Escritorio\\4A\\PGTA\\Proyecto_3_Def_PGTA\\Project_P3\\Project_P3\\Input.cs",
+              "RelativeToolTip": "Project_P3\\Input.cs",
+              "ViewState": "AgIAAK8AAAAAAAAAAAArwM4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T21:34:24.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Input.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\paula\\OneDrive\\Escritorio\\4A\\PGTA\\Proyecto_3_Def_PGTA\\Project_P3\\Project_P3\\Input.cs",
+              "RelativeDocumentMoniker": "Project_P3\\Input.cs",
+              "ToolTip": "C:\\Users\\paula\\OneDrive\\Escritorio\\4A\\PGTA\\Proyecto_3_Def_PGTA\\Project_P3\\Project_P3\\Input.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Project_P3\\Input.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T21:34:08.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\paula\\OneDrive\\Escritorio\\4A\\PGTA\\Proyecto_3_Def_PGTA\\Project_P3\\Project_P3\\Class1.cs",
+              "RelativeDocumentMoniker": "Project_P3\\Class1.cs",
+              "ToolTip": "C:\\Users\\paula\\OneDrive\\Escritorio\\4A\\PGTA\\Proyecto_3_Def_PGTA\\Project_P3\\Project_P3\\Class1.cs",
+              "RelativeToolTip": "Project_P3\\Class1.cs",
+              "ViewState": "AgIAAJ8DAAAAAAAAAAAawLkDAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T21:20:47.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Classes.cs",
+              "DocumentMoniker": "C:\\Users\\paula\\OneDrive\\Escritorio\\4A\\PGTA\\Proyecto_3_Def_PGTA\\Project_P3\\Project_P3\\Classes.cs",
+              "RelativeDocumentMoniker": "Project_P3\\Classes.cs",
+              "ToolTip": "C:\\Users\\paula\\OneDrive\\Escritorio\\4A\\PGTA\\Proyecto_3_Def_PGTA\\Project_P3\\Project_P3\\Classes.cs",
+              "RelativeToolTip": "Project_P3\\Classes.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T21:20:58.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form2.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\paula\\OneDrive\\Escritorio\\4A\\PGTA\\Proyecto_3_Def_PGTA\\Project_P3\\Project_P3\\Form2.cs",
+              "RelativeDocumentMoniker": "Project_P3\\Form2.cs",
+              "ToolTip": "C:\\Users\\paula\\OneDrive\\Escritorio\\4A\\PGTA\\Proyecto_3_Def_PGTA\\Project_P3\\Project_P3\\Form2.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Project_P3\\Form2.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T21:09:41.398Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\palmi\\Documents\\GitHub\\Proyecto_3_Def_PGTA\\Project_P3\\Project_P3\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\paula\\OneDrive\\Escritorio\\4A\\PGTA\\Proyecto_3_Def_PGTA\\Project_P3\\Project_P3\\Program.cs",
               "RelativeDocumentMoniker": "Project_P3\\Program.cs",
-              "ToolTip": "C:\\Users\\palmi\\Documents\\GitHub\\Proyecto_3_Def_PGTA\\Project_P3\\Project_P3\\Program.cs",
+              "ToolTip": "C:\\Users\\paula\\OneDrive\\Escritorio\\4A\\PGTA\\Proyecto_3_Def_PGTA\\Project_P3\\Project_P3\\Program.cs",
               "RelativeToolTip": "Project_P3\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwA0AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T17:36:01.427Z",
               "EditorCaption": ""
