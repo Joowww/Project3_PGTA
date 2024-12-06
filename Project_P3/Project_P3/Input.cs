@@ -133,7 +133,7 @@ namespace Project_P3
                     }
                     else
                     {
-                        throw new Exception("Format error. Make sure the input files have the correct format.");
+                        MessageBox.Show("There has been an error with the files selected. Make sure you select them in order", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         progBar.Close();
                     }
 
@@ -238,25 +238,34 @@ namespace Project_P3
         }
 
 
+        private bool closePromptShown = false; // To ensure the message box only shows once
+
         private void Input_FormClosing(object sender, FormClosingEventArgs e)
         {
-            
-            DialogResult result = MessageBox.Show(
-                "Are you sure you want to close the application?",  
-                "Confirm Close",  
-                MessageBoxButtons.YesNo,  
-                MessageBoxIcon.Question);  
+            // Prevent showing multiple prompts
+            if (!closePromptShown)
+            {
+                closePromptShown = true;
 
-            if (result == DialogResult.Yes)
-            {
-                
-                Environment.Exit(0);  
-            }
-            else
-            {
-                e.Cancel = true; 
+                DialogResult result = MessageBox.Show(
+                    "Are you sure you want to close the application?",
+                    "Confirm Close",
+                    MessageBoxButtons.YesNo,
+                    MessageBoxIcon.Question);
+
+                if (result == DialogResult.Yes)
+                {
+                    Environment.Exit(0); // Completely close the application
+                }
+                else
+                {
+                    e.Cancel = true; // Cancel closing the form
+                }
+
+                closePromptShown = false; // Reset the flag for future closings
             }
         }
+
 
 
 

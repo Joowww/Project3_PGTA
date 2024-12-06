@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\palmi\\Documents\\GitHub\\Proyecto_3_Def_PGTA\\Project_P3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{072EF9A8-1B1B-476C-8BCA-A2936F581C36}|Project_P3\\Project_P3.csproj|C:\\Users\\palmi\\Documents\\GitHub\\Proyecto_3_Def_PGTA\\Project_P3\\project_p3\\input.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{072EF9A8-1B1B-476C-8BCA-A2936F581C36}|Project_P3\\Project_P3.csproj|c:\\users\\palmi\\documents\\github\\proyecto_3_def_pgta\\project_p3\\project_p3\\input.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{072EF9A8-1B1B-476C-8BCA-A2936F581C36}|Project_P3\\Project_P3.csproj|solutionrelative:project_p3\\input.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{072EF9A8-1B1B-476C-8BCA-A2936F581C36}|Project_P3\\Project_P3.csproj|solutionrelative:project_p3\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{072EF9A8-1B1B-476C-8BCA-A2936F581C36}|Project_P3\\Project_P3.csproj|c:\\users\\palmi\\documents\\github\\proyecto_3_def_pgta\\project_p3\\project_p3\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{072EF9A8-1B1B-476C-8BCA-A2936F581C36}|Project_P3\\Project_P3.csproj|C:\\Users\\palmi\\Documents\\GitHub\\Proyecto_3_Def_PGTA\\Project_P3\\project_p3\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{072EF9A8-1B1B-476C-8BCA-A2936F581C36}|Project_P3\\Project_P3.csproj|solutionrelative:project_p3\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -43,7 +43,7 @@
       "RelativeMoniker": "D:0:0:{072EF9A8-1B1B-476C-8BCA-A2936F581C36}|Project_P3\\Project_P3.csproj|solutionrelative:project_p3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{072EF9A8-1B1B-476C-8BCA-A2936F581C36}|Project_P3\\Project_P3.csproj|c:\\users\\palmi\\documents\\github\\proyecto_3_def_pgta\\project_p3\\project_p3\\input.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{072EF9A8-1B1B-476C-8BCA-A2936F581C36}|Project_P3\\Project_P3.csproj|C:\\Users\\palmi\\Documents\\GitHub\\Proyecto_3_Def_PGTA\\Project_P3\\project_p3\\input.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{072EF9A8-1B1B-476C-8BCA-A2936F581C36}|Project_P3\\Project_P3.csproj|solutionrelative:project_p3\\input.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -70,8 +70,7 @@
               "RelativeToolTip": "Project_P3\\Input.Designer.cs",
               "ViewState": "AgIAAHQAAAAAAAAAAAAkwJIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T11:00:04.973Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T11:00:04.973Z"
             },
             {
               "$type": "Document",
@@ -83,8 +82,7 @@
               "RelativeToolTip": "Project_P3\\Form2.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAEwEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T08:46:57.931Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T08:46:57.931Z"
             },
             {
               "$type": "Document",
@@ -96,8 +94,7 @@
               "RelativeToolTip": "Project_P3\\Class2.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAqwCwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T23:22:32.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T23:22:32.551Z"
             },
             {
               "$type": "Document",
@@ -109,8 +106,7 @@
               "RelativeToolTip": "Project_P3\\Form1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T23:19:51.91Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T23:19:51.91Z"
             },
             {
               "$type": "Document",
@@ -121,8 +117,7 @@
               "ToolTip": "C:\\Users\\palmi\\Documents\\GitHub\\Proyecto_3_Def_PGTA\\Project_P3\\Project_P3\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Project_P3\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T23:19:44.248Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-12-05T23:19:44.248Z"
             },
             {
               "$type": "Document",
@@ -134,8 +129,7 @@
               "RelativeToolTip": "Project_P3\\Form2.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T22:30:40.976Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T22:30:40.976Z"
             },
             {
               "$type": "Document",
@@ -145,7 +139,7 @@
               "RelativeDocumentMoniker": "Project_P3\\Input.cs",
               "ToolTip": "C:\\Users\\palmi\\Documents\\GitHub\\Proyecto_3_Def_PGTA\\Project_P3\\Project_P3\\Input.cs",
               "RelativeToolTip": "Project_P3\\Input.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAANoAAAAAAAAAAAAlwPEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T21:34:24.423Z",
               "EditorCaption": ""
@@ -159,8 +153,7 @@
               "ToolTip": "C:\\Users\\palmi\\Documents\\GitHub\\Proyecto_3_Def_PGTA\\Project_P3\\Project_P3\\Input.cs [Dise\u00F1o]",
               "RelativeToolTip": "Project_P3\\Input.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T21:34:08.77Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-12-05T21:34:08.77Z"
             },
             {
               "$type": "Document",
@@ -172,8 +165,7 @@
               "RelativeToolTip": "Project_P3\\Class1.cs",
               "ViewState": "AgIAAJkDAAAA4PlLQYbgv7MDAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T21:20:47.33Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T21:20:47.33Z"
             },
             {
               "$type": "Document",
@@ -185,8 +177,7 @@
               "RelativeToolTip": "Project_P3\\Classes.cs",
               "ViewState": "AgIAAHcCAAAAAAAAAAAiwMUCAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T21:20:58.424Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T21:20:58.424Z"
             },
             {
               "$type": "Document",
@@ -197,8 +188,7 @@
               "ToolTip": "C:\\Users\\palmi\\Documents\\GitHub\\Proyecto_3_Def_PGTA\\Project_P3\\Project_P3\\Form2.cs [Dise\u00F1o]",
               "RelativeToolTip": "Project_P3\\Form2.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T21:09:41.398Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-12-05T21:09:41.398Z"
             },
             {
               "$type": "Document",
