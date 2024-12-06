@@ -46,9 +46,10 @@
             label2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             label2.Font = new System.Drawing.Font("Microsoft Tai Le", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            label2.Location = new System.Drawing.Point(107, 78);
+            label2.Location = new System.Drawing.Point(80, 63);
+            label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             label2.Name = "label2";
-            label2.Size = new System.Drawing.Size(554, 23);
+            label2.Size = new System.Drawing.Size(461, 19);
             label2.TabIndex = 3;
             label2.Text = "To get the final statistics in CSV format some inputs must be entered\r\n";
             // 
@@ -56,10 +57,10 @@
             // 
             this.button1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Font = new System.Drawing.Font("Microsoft Tai Le", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(305, 55);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button1.Location = new System.Drawing.Point(229, 45);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(195, 33);
+            this.button1.Size = new System.Drawing.Size(146, 27);
             this.button1.TabIndex = 0;
             this.button1.Text = " 24 hour period";
             this.button1.UseVisualStyleBackColor = false;
@@ -68,10 +69,10 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Tai Le", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(284, 404);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button2.Location = new System.Drawing.Point(213, 328);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(211, 44);
+            this.button2.Size = new System.Drawing.Size(158, 36);
             this.button2.TabIndex = 1;
             this.button2.Text = "Browse";
             this.button2.UseVisualStyleBackColor = true;
@@ -80,9 +81,10 @@
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(112, 121);
+            this.label1.Location = new System.Drawing.Point(84, 98);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(557, 130);
+            this.label1.Size = new System.Drawing.Size(418, 106);
             this.label1.TabIndex = 2;
             this.label1.Text = resources.GetString("label1.Text");
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -92,10 +94,10 @@
             // 
             this.button3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button3.Font = new System.Drawing.Font("Microsoft Tai Le", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(68, 55);
-            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button3.Location = new System.Drawing.Point(51, 45);
+            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(201, 33);
+            this.button3.Size = new System.Drawing.Size(151, 27);
             this.button3.TabIndex = 4;
             this.button3.Text = "4 hour period  (08 - 12 am)";
             this.button3.UseVisualStyleBackColor = false;
@@ -107,41 +109,43 @@
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.button1);
-            this.panel1.Location = new System.Drawing.Point(111, 254);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel1.Location = new System.Drawing.Point(83, 206);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(559, 106);
+            this.panel1.Size = new System.Drawing.Size(419, 86);
             this.panel1.TabIndex = 5;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Tai Le", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(177, 20);
+            this.label3.Location = new System.Drawing.Point(133, 16);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(226, 16);
+            this.label3.Size = new System.Drawing.Size(198, 14);
             this.label3.TabIndex = 0;
             this.label3.Text = "Get statistics for the 2nd of May 2023";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // Input
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(783, 487);
+            this.ClientSize = new System.Drawing.Size(587, 396);
             this.Controls.Add(label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Input";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Input";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Input_FormClosing);
+            this.Load += new System.EventHandler(this.Input_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

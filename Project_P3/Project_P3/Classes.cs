@@ -642,7 +642,7 @@ namespace Functions
 
         }
 
-        public void GenerarKML(DataTable tablaAviones, string rutaArchivo)
+        public void GenerarKML(DataTable tablaAviones, string rutaCarpeta)
         {
             if (tablaAviones == null || tablaAviones.Rows.Count == 0)
             {
@@ -650,52 +650,63 @@ namespace Functions
                 return;
             }
 
-            using (StreamWriter writer = new StreamWriter(rutaArchivo))
+            // Define el nombre del archivo KML
+            string rutaArchivo = Path.Combine(rutaCarpeta, "Results_TurnInitiation.kml");
+
+            try
             {
-                writer.WriteLine("<?xml version=\"1.0\" encoding=\"UTF-8\"?>");
-                writer.WriteLine("<kml xmlns=\"http://www.opengis.net/kml/2.2\">");
-                writer.WriteLine("<Document>");
-
-                foreach (DataRow row in tablaAviones.Rows)
+                using (StreamWriter writer = new StreamWriter(rutaArchivo))
                 {
-                    string indicativo = row["Aircraft ID"].ToString();
-                    string latitudStr = row["Aircraft latitude [°]"].ToString();
-                    string longitudStr = row["Aircraft longitude [°]"].ToString();
-                    string horaSACTA = row["time [hh:mm:ss:fff]"].ToString();
+                    writer.WriteLine("<?xml version=\"1.0\" encoding=\"UTF-8\"?>");
+                    writer.WriteLine("<kml xmlns=\"http://www.opengis.net/kml/2.2\">");
+                    writer.WriteLine("<Document>");
 
-                    if (string.IsNullOrEmpty(latitudStr) || string.IsNullOrEmpty(longitudStr))
+                    foreach (DataRow row in tablaAviones.Rows)
                     {
-                        Console.WriteLine($"Coordenadas no válidas para el vuelo {indicativo}. Omitiendo este registro.");
-                        continue;
+                        string indicativo = row["Aircraft ID"].ToString();
+                        string latitudStr = row["Aircraft latitude [°]"].ToString();
+                        string longitudStr = row["Aircraft longitude [°]"].ToString();
+                        string horaSACTA = row["time [hh:mm:ss:fff]"].ToString();
+
+                        if (string.IsNullOrEmpty(latitudStr) || string.IsNullOrEmpty(longitudStr))
+                        {
+                            Console.WriteLine($"Coordenadas no válidas para el vuelo {indicativo}. Omitiendo este registro.");
+                            continue;
+                        }
+
+                        latitudStr = latitudStr.Replace(",", ".");
+                        longitudStr = longitudStr.Replace(",", ".");
+
+                        if (double.TryParse(latitudStr, NumberStyles.Any, CultureInfo.InvariantCulture, out double latitud) &&
+                            double.TryParse(longitudStr, NumberStyles.Any, CultureInfo.InvariantCulture, out double longitud))
+                        {
+                            // Escribir el placemark con formato invariante
+                            writer.WriteLine("<Placemark>");
+                            writer.WriteLine($"  <name>{indicativo} - {horaSACTA}</name>");
+                            writer.WriteLine("  <Point>");
+                            writer.WriteLine($"    <coordinates>{longitud.ToString(CultureInfo.InvariantCulture)},{latitud.ToString(CultureInfo.InvariantCulture)},0</coordinates>");
+                            writer.WriteLine("  </Point>");
+                            writer.WriteLine("</Placemark>");
+                        }
+                        else
+                        {
+                            Console.WriteLine($"Error al convertir las coordenadas para el vuelo {indicativo}. Omitiendo este registro.");
+                        }
                     }
 
-                    latitudStr = latitudStr.Replace(",", ".");
-                    longitudStr = longitudStr.Replace(",", ".");
-
-                    if (double.TryParse(latitudStr, NumberStyles.Any, CultureInfo.InvariantCulture, out double latitud) &&
-                        double.TryParse(longitudStr, NumberStyles.Any, CultureInfo.InvariantCulture, out double longitud))
-                    {
-                        // Escribir el placemark con formato invariante
-                        writer.WriteLine("<Placemark>");
-                        writer.WriteLine($"  <name>{indicativo} - {horaSACTA}</name>");
-                        writer.WriteLine("  <Point>");
-                        writer.WriteLine($"    <coordinates>{longitud.ToString(CultureInfo.InvariantCulture)},{latitud.ToString(CultureInfo.InvariantCulture)},0</coordinates>");
-                        writer.WriteLine("  </Point>");
-                        writer.WriteLine("</Placemark>");
-                    }
-                    else
-                    {
-                        Console.WriteLine($"Error al convertir las coordenadas para el vuelo {indicativo}. Omitiendo este registro.");
-                    }
+                    writer.WriteLine("</Document>");
+                    writer.WriteLine("</kml>");
                 }
 
-                writer.WriteLine("</Document>");
-                writer.WriteLine("</kml>");
+                Console.WriteLine($"Archivo KML generado en: {rutaArchivo}");
             }
-
-            Console.WriteLine($"Archivo KML generado en: {rutaArchivo}");
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error al generar el archivo KML: {ex.Message}");
+            }
         }
 
+       
 
 
         public void SaveDataTableAsCSV(DataTable table, string filePath)

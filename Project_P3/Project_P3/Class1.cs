@@ -144,33 +144,6 @@ namespace Project_P3
                     stat_230 = fields[69].Trim('"'),
 
 
-
-                    // Format de prova
-                    /*time = fields[0].Trim('"'),
-                    time_s = fields[1].Trim('"'),
-                    lat = fields[2].Trim('"'),
-                    lon = fields[3].Trim('"'),
-                    height = fields[4].Trim('"'),
-                    rho = fields[5].Trim('"'),
-                    theta = fields[6].Trim('"'),
-                    mode3A = fields[7].Trim('"'),
-                    FL = fields[8].Trim('"'),
-                    TA = fields[9].Trim('"').Trim(),
-                    TI = fields[10].Trim('"').Trim(),
-                    BP = fields[11].Trim('"'),
-                    RA = fields[12].Trim('"'),
-                    TTA = fields[13].Trim('"'),
-                    GS = fields[14].Trim('"'),
-                    TAR = fields[15].Trim('"'),
-                    TAS = fields[16].Trim('"'),
-                    HDG = fields[17].Trim('"'),
-                    IAS = fields[18].Trim('"'),
-                    BAR = fields[19].Trim('"'),
-                    IVV = fields[20].Trim('"'),
-                    TN = fields[21].Trim('"'),
-                    HEADING = fields[22].Trim('"'),
-                    stat_230 = fields[23].Trim('"'),
-                    */
                 };
 
                 aircrafts_ast.Add(message);
@@ -354,9 +327,11 @@ namespace Project_P3
 
             Dictionary<string, List<ASTmessage>> interpolatedPositions = new Dictionary<string, List<ASTmessage>>();
 
+            
 
-            // Almacenar los mensajes de AST en el diccionario
-            foreach (var message in filtered_asterix)
+
+                // Almacenar los mensajes de AST en el diccionario
+                foreach (var message in filtered_asterix)
             {
                 if (!aircraftPositions.ContainsKey(message.TI))
                 {
@@ -557,8 +532,6 @@ namespace Project_P3
 
             
 
-           
-
             //VIRAJES
 
             //  Table para virajes
@@ -713,7 +686,7 @@ namespace Project_P3
                             }
                             if ((HDG_difference >= 0.8 || Math.Abs(RA) >= 4) && viraje_started == false &&
                                 ((dateTime.TimeOfDay > aircraft_position1.horaSACTA.TimeOfDay)
-                                || (aircraft_position1.horaSACTA.TimeOfDay.TotalSeconds - dateTime.TimeOfDay.TotalSeconds <= 10)))
+                                || (aircraft_position1.horaSACTA.TimeOfDay.TotalSeconds - dateTime.TimeOfDay.TotalSeconds <= 10)) && (dateTime.TimeOfDay.TotalSeconds - aircraft_position1.horaSACTA.TimeOfDay.TotalSeconds) <= 60)
                             {
                                 //Set viraje started
                                 aircraft_position1.viraje = true;
@@ -763,6 +736,8 @@ namespace Project_P3
 
                         }
                     }
+
+                     
 
                     //threshold
                     double lat_aircraft = Convert.ToDouble(aircraft_position1.lat);
@@ -972,11 +947,11 @@ namespace Project_P3
                         aircraftID, // ID del avión
                         runway_aircraft,      // Runway
                         "Not Detected", // Detected in threshold
-                        "N/A",      // Aircraft latitude
-                        "N/A",      // Aircraft longitude
-                        "N/A",      // Altitude
-                        "N/A",      // IAS
-                        "N/A",      // Time
+                        "",      // Aircraft latitude
+                        "",      // Aircraft longitude
+                        "",      // Altitude
+                        "",      // IAS
+                        "",      // Time
                         SID_aircraft,      // SID
                         SIDgroup_aircraft,      // Group SID
                         aircraftype_aircraft,      // Aircraft type
@@ -1005,9 +980,7 @@ namespace Project_P3
             }
 
 
-            Function f4 = new Function();
-            f4.GenerarKML(virajes_Table, "posiciones_viraje.kml");
-
+           
             //Check distances 
             DataTable table = new DataTable("Loss of Distances");
             table.Columns.Add("Callsign aircraft ahead", typeof(string));
@@ -1089,6 +1062,9 @@ namespace Project_P3
                     }
                 }
 
+                
+
+
                 List<DataTable> data = new List<DataTable>();
                 data.Add(table);
                 data.Add(virajes_Table);
@@ -1096,8 +1072,10 @@ namespace Project_P3
                 data.Add(Threshold_Table);
                 data.Add(Sonometro_Table);
                 result = data;
+
+
             }
-            catch
+                catch
             {
                 result = null;
             }

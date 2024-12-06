@@ -35,33 +35,37 @@
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(115, 159);
-            this.progressBar1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.progressBar1.Location = new System.Drawing.Point(43, 181);
+            this.progressBar1.Margin = new System.Windows.Forms.Padding(4);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(635, 55);
+            this.progressBar1.Size = new System.Drawing.Size(317, 30);
             this.progressBar1.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Tai Le", 12.8F);
-            this.label1.Location = new System.Drawing.Point(323, 105);
+            this.label1.Font = new System.Drawing.Font("Microsoft Tai Le", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(103, 126);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(217, 32);
+            this.label1.Size = new System.Drawing.Size(204, 23);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Computing data...";
+            this.label1.Text = "Loading . . . Please wait";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // progBar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 29F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(878, 344);
+            this.ClientSize = new System.Drawing.Size(415, 304);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.progressBar1);
             this.Font = new System.Drawing.Font("Microsoft Tai Le", 10.8F);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "progBar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Loading...";
             this.Load += new System.EventHandler(this.progBar_Load);
             this.ResumeLayout(false);

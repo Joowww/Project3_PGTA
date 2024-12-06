@@ -47,6 +47,9 @@ namespace Project_P3
                         f.SaveDataTableAsCSV(tablas[2], Path.Combine(selectedFolder, "Results_IASatAltitudes.csv"));
                         f.SaveDataTableAsCSV(tablas[3], Path.Combine(selectedFolder, "Results_IASandAltitudeTHR.csv"));
                         f.SaveDataTableAsCSV(tablas[4], Path.Combine(selectedFolder, "Results_MinDistanceSoundlevelmeter.csv"));
+                        f.GenerarKML(tablas[1], selectedFolder);
+                        
+
                         return selectedFolder;
                     }
                     else

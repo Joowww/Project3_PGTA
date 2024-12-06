@@ -300,3 +300,4 @@ C:\Users\joelm\OneDrive\Documentos\GitHub\Proyecto_3_Def_PGTA\Project_P3\Project
 C:\Users\joelm\OneDrive\Documentos\GitHub\Proyecto_3_Def_PGTA\Project_P3\Project_P3\obj\Debug\Project_P3.csproj.CopyComplete
 C:\Users\joelm\OneDrive\Documentos\GitHub\Proyecto_3_Def_PGTA\Project_P3\Project_P3\obj\Debug\Project_P3.exe
 C:\Users\joelm\OneDrive\Documentos\GitHub\Proyecto_3_Def_PGTA\Project_P3\Project_P3\obj\Debug\Project_P3.pdb
+C:\Users\palmi\Documents\GitHub\Proyecto_3_Def_PGTA\Project_P3\Project_P3\obj\Debug\Project_P3.progBar.resources

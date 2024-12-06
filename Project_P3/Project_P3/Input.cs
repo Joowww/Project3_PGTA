@@ -17,6 +17,7 @@ namespace Project_P3
         public Input()
         {
             InitializeComponent();
+            this.FormClosing += new FormClosingEventHandler(Input_FormClosing);
         }
 
 
@@ -153,7 +154,7 @@ namespace Project_P3
 
         private void CloseAllForms()
         {
-            // Crear una lista de formularios a cerrar (evitar modificar la colección mientras la recorres)
+            
             var formsToClose = new List<Form>();
 
             foreach (Form form in Application.OpenForms)
@@ -161,7 +162,7 @@ namespace Project_P3
                 formsToClose.Add(form);
             }
 
-            // Cerrar los formularios después de la iteración
+            
             foreach (Form form in formsToClose)
             {
                 form.Close();
@@ -219,7 +220,7 @@ namespace Project_P3
                     }
                     else
                     {
-                        MessageBox.Show("Process finished. File created at: " + path, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("Process finished. Files saved at: " + path, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         progBar4.Close();
                         CloseAllForms();
                     }
@@ -231,22 +232,33 @@ namespace Project_P3
             }
         }
 
+        private void Input_Load(object sender, EventArgs e)
+        {
+
+        }
+
+
         private void Input_FormClosing(object sender, FormClosingEventArgs e)
         {
+            
             DialogResult result = MessageBox.Show(
-            "Are you sure you want to close the application?",
-            "Confirm Exit",
-            MessageBoxButtons.YesNo,
-            MessageBoxIcon.Question);
+                "Are you sure you want to close the application?",  
+                "Confirm Close",  
+                MessageBoxButtons.YesNo,  
+                MessageBoxIcon.Question);  
 
             if (result == DialogResult.Yes)
             {
-                Environment.Exit(0);
+                
+                Environment.Exit(0);  
             }
-            else if (result == DialogResult.No)
+            else
             {
-                e.Cancel = true;
+                e.Cancel = true; 
             }
         }
+
+
+
     }
 }
