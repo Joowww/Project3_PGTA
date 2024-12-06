@@ -20,10 +20,9 @@ namespace Project_P3
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
             Input formInputs = new Input();
+            this.Hide();
             formInputs.Show();
-
         }
 
         
@@ -40,6 +39,24 @@ namespace Project_P3
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult result = MessageBox.Show(
+            "Are you sure you want to close the application?",
+            "Confirm Exit",
+            MessageBoxButtons.YesNo,
+            MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
+            {
+                Environment.Exit(0);
+            }
+            else if (result == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
         }
     }
 }

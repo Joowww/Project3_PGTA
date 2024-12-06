@@ -231,5 +231,22 @@ namespace Project_P3
             }
         }
 
+        private void Input_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult result = MessageBox.Show(
+            "Are you sure you want to close the application?",
+            "Confirm Exit",
+            MessageBoxButtons.YesNo,
+            MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
+            {
+                Environment.Exit(0);
+            }
+            else if (result == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
+        }
     }
 }
