@@ -251,12 +251,9 @@ namespace Project_P3
 
         }
 
-
         private bool closePromptShown = false; // To ensure the message box only shows once
-
         private void Input_FormClosing(object sender, FormClosingEventArgs e)
         {
-            // Prevent showing multiple prompts
             if (!closePromptShown)
             {
                 closePromptShown = true;
@@ -269,7 +266,7 @@ namespace Project_P3
 
                 if (result == DialogResult.Yes)
                 {
-                    Environment.Exit(0); // Completely close the application
+                    Application.Exit(); // Gracefully close the application
                 }
                 else
                 {
