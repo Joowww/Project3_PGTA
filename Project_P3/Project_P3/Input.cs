@@ -58,7 +58,12 @@ namespace Project_P3
                     MessageBox.Show("There has been an error with the folder selected. Make sure to close excels previously obtained by this code.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     progBar24.Close();
                 }
-            
+
+                else if (path == "0")
+                {
+                    MessageBox.Show("The operation has been cancellled.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    progBar24.Close();
+                }
                 else
                 {
                     MessageBox.Show("Process finished correctly. Files saved in " + path, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -124,7 +129,11 @@ namespace Project_P3
                             MessageBox.Show("There has been an error with the folder selected. Make sure to close excels previously obtained by this code.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             progBar.Close();
                         }
-
+                        else if (path == "0")
+                        {
+                            MessageBox.Show("The operation has been cancellled.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            progBar.Close();
+                        }
                         else
                         {
                             MessageBox.Show("Process finished correctly. Files saved in " + path, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -216,6 +225,11 @@ namespace Project_P3
                     if (path == null)
                     {
                         MessageBox.Show("There has been an error with the folder selected. Make sure to close excels previously obtained by this code.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        progBar4.Close();
+                    }
+                    else if (path == "0")
+                    {
+                        MessageBox.Show("The operation has been cancellled.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         progBar4.Close();
                     }
                     else
