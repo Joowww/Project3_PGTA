@@ -32,7 +32,7 @@ There are 2 options do run the program:
   - Use the standard ones already present in the project. Data from periods of 4 hours (from 8 am to 12 am) or 24 hours of the 2nd of May 2023 will be analyzed.
   - User select specific inputs. If this case is selected, a new file explorer will open. The user shall do <em> Cntr + select the 5 inputs file </em>  **in the same order as specified**: LEBL departures, Asterix decoded  <em>*.csv</em>  file (must be from AsterixPro!), Aircraft Classification Table, Same SID Table for runway 06R and Same SID Table for runway 24L.
 3. The program will execute until the final <em>*.csv</em> files are obtained.
-4. A file explorer will open, the user shall select where to save the outputs files. The names for the files will be: "Results_SeparationLoss.csv",  "Results_TurnInitiation.csv", "Results_IASatAltitudes.csv", "Results_IASandAltitudeTHR.csv" and "Results_MinDistanceSoundlevelmeter.csv".
+4. A file explorer will open, the user shall select where to save the outputs files. The names for the files will be: "Results_SeparationLoss.csv",  "Results_TurnInitiation.csv", "Results_TurnInitiation.kml", "Results_IASatAltitudes.csv", "Results_IASandAltitudeTHR.csv" and "Results_MinDistanceSoundlevelmeter.csv".
 5. A messagebox will indicate if the process has been succesful.
 
 PD: Make sure to close excels previously obtained by this program in the same folder selected. Otherwhise a message box will appear with this same message.  
