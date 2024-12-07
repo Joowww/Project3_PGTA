@@ -229,7 +229,6 @@ C:\Users\paula\OneDrive\Escritorio\4A\PGTA\Proyecto_3_Def_PGTA\Project_P3\Projec
 C:\Users\paula\OneDrive\Escritorio\4A\PGTA\Proyecto_3_Def_PGTA\Project_P3\Project_P3\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\paula\OneDrive\Escritorio\4A\PGTA\Proyecto_3_Def_PGTA\Project_P3\Project_P3\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\paula\OneDrive\Escritorio\4A\PGTA\Proyecto_3_Def_PGTA\Project_P3\Project_P3\obj\Debug\Project_P3.csproj.AssemblyReference.cache
-C:\Users\paula\OneDrive\Escritorio\4A\PGTA\Proyecto_3_Def_PGTA\Project_P3\Project_P3\obj\Debug\Project_P3.Form1.resources
 C:\Users\paula\OneDrive\Escritorio\4A\PGTA\Proyecto_3_Def_PGTA\Project_P3\Project_P3\obj\Debug\Project_P3.Input.resources
 C:\Users\paula\OneDrive\Escritorio\4A\PGTA\Proyecto_3_Def_PGTA\Project_P3\Project_P3\obj\Debug\Project_P3.Properties.Resources.resources
 C:\Users\paula\OneDrive\Escritorio\4A\PGTA\Proyecto_3_Def_PGTA\Project_P3\Project_P3\obj\Debug\Project_P3.csproj.GenerateResource.cache
@@ -301,3 +300,4 @@ C:\Users\joelm\OneDrive\Documentos\GitHub\Proyecto_3_Def_PGTA\Project_P3\Project
 C:\Users\joelm\OneDrive\Documentos\GitHub\Proyecto_3_Def_PGTA\Project_P3\Project_P3\obj\Debug\Project_P3.exe
 C:\Users\joelm\OneDrive\Documentos\GitHub\Proyecto_3_Def_PGTA\Project_P3\Project_P3\obj\Debug\Project_P3.pdb
 C:\Users\palmi\Documents\GitHub\Proyecto_3_Def_PGTA\Project_P3\Project_P3\obj\Debug\Project_P3.progBar.resources
+C:\Users\paula\OneDrive\Escritorio\4A\PGTA\Proyecto_3_Def_PGTA\Project_P3\Project_P3\obj\Debug\Project_P3.Welcome.resources

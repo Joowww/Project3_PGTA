@@ -27,7 +27,7 @@ using System.Windows.Forms;
 
 namespace Project_P3
 {
-    internal class Class2
+    internal class SaveData
     {
         public static string SaveFiles(List<DataTable> tablas)
         {

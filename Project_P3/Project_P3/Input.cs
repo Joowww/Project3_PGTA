@@ -43,11 +43,11 @@ namespace Project_P3
                 // Iniciar la barra de progreso de forma asíncrona
                 var progressTask = progBar24.StartProgressAsync();
 
-                List<DataTable> tablas = await Task.Run(() => Class1.ExecuteCode(defaultFile1, defaultFile2, defaultFile3, defaultFile4, defaultFile5));
+                List<DataTable> tablas = await Task.Run(() => DataComputing.ExecuteCode(defaultFile1, defaultFile2, defaultFile3, defaultFile4, defaultFile5));
 
                 // Detener la barra de progreso
                 progBar24.StopProgress();
-                path = Class2.SaveFiles(tablas);
+                path = SaveData.SaveFiles(tablas);
                 // Asegurar que la barra llegue al 100% antes de cerrar
                 progBar24.UpdateProgress(100);
                 await Task.Delay(500); // Pausa breve para mostrar el progreso completo
@@ -107,7 +107,7 @@ namespace Project_P3
                     List<DataTable> tablas = null;
                     try
                     {
-                        tablas = await Task.Run(() => Class1.ExecuteCode(selectedFiles[0], selectedFiles[1], selectedFiles[2], selectedFiles[3], selectedFiles[4]));
+                        tablas = await Task.Run(() => DataComputing.ExecuteCode(selectedFiles[0], selectedFiles[1], selectedFiles[2], selectedFiles[3], selectedFiles[4]));
                     }
                     catch
                     {
@@ -118,7 +118,7 @@ namespace Project_P3
                         // Detener la barra de progreso
                         progBar.StopProgress();
 
-                        path = Class2.SaveFiles(tablas);
+                        path = SaveData.SaveFiles(tablas);
                         // Asegurar que la barra llegue al 100% antes de cerrar
                         progBar.UpdateProgress(100);
                         await Task.Delay(500); // Pausa breve para mostrar el progreso completo
@@ -210,13 +210,13 @@ namespace Project_P3
                 var progressTask = progBar4.StartProgressAsync();
 
                 // Ejecutar el código principal en segundo plano
-                List<DataTable> tablas = await Task.Run(() => Class1.ExecuteCode(defaultFile1, defaultFile2, defaultFile3, defaultFile4, defaultFile5));
+                List<DataTable> tablas = await Task.Run(() => DataComputing.ExecuteCode(defaultFile1, defaultFile2, defaultFile3, defaultFile4, defaultFile5));
 
                 
                     // Detener la barra de progreso
                     progBar4.StopProgress();
 
-                    path = Class2.SaveFiles(tablas);
+                    path = SaveData.SaveFiles(tablas);
                     // Asegurar que la barra llegue al 100% antes de cerrar
                     progBar4.UpdateProgress(100);
                     await Task.Delay(500); // Pausa breve para mostrar el progreso completo

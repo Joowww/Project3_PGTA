@@ -29,7 +29,7 @@ using System.Linq.Expressions;
 
 namespace Project_P3 
 {
-    internal class Class1
+    internal class DataComputing
     {
         CultureInfo cultura = new CultureInfo("es-ES");
         //public static readonly NLog.Logger logger = LogManager.GetCurrentClassLogger();
