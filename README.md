@@ -34,3 +34,5 @@ There are 2 options do run the program:
 3. The program will execute until the final <em>*.csv</em> files are obtained.
 4. A file explorer will open, the user shall select where to save the outputs files. The names for the files will be: "Results_SeparationLoss.csv",  "Results_TurnInitiation.csv", "Results_IASatAltitudes.csv", "Results_IASandAltitudeTHR.csv" and "Results_MinDistanceSoundlevelmeter.csv".
 5. A messagebox will indicate if the process has been succesful.
+
+PD: Make sure to close excels previously obtained by this program in the same folder selected. Otherwhise a message box will appear with this same message.  
