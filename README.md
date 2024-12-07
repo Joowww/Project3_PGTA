@@ -5,7 +5,7 @@ This document is a quick guide on how to use the project software. The purpose o
 
 ## 1. Installation
 ### 1.1 Prerequisites
-- [.NET 6 SDK](https://dotnet.microsoft.com/es-es/download/dotnet/6.0) or higher.
+- [.NET Framework 4.8 SDK](https://dotnet.microsoft.com/es-es/download/dotnet/6.0) or higher.
 - Clone this repository and open it in a C# compatible development environment (e.g., Visual Studio or Visual Studio Code).
 ### 1.2 Cloning the repository
 
